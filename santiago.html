@@ -20,8 +20,8 @@
           <li><a href="#bienvenida">Mensaje de bienvenida</a></li>
           <li><a href="#biograficos">Datos biográficos</a></li>
           <li><a href="#academicos">Datos académicos</a></li>
-          <li><a>Sitios de interés </a></li>
-          <li><a>Formulario de contacto</a></li>
+          <li><a href="#interes">Sitios de interés </a></li>
+          <li><a href="#formulario">Formulario de contacto</a></li>
         </ul>
       </nav>
     </header>
@@ -72,24 +72,78 @@
         </div>
         <div>
           <section>
-            <h2>Sitios de interés</h2>
-            <p>Algunas de mis canciones favoritas son las siguientes:</p>
-            <iframe
-              width="420"
-              height="315"
-              src="https://www.youtube.com/embed/CTFtOOh47oo"
-            ></iframe>
-            <br />
-            <iframe
-              width="420"
-              height="315"
-              src="https://www.youtube.com/embed/yywL2rc-QZM"
-            ></iframe>
-            <p>Y este es mi canchoso:</p>
+            <div>
+              <h2 id="interes">Sitios de interés</h2>
+              <p>Algunas de mis canciones favoritas son las siguientes:</p>
+              <iframe
+                width="500"
+                height="315"
+                src="https://www.youtube.com/embed/CTFtOOh47oo"
+              ></iframe>
+              <br />
+              <iframe
+                width="500"
+                height="315"
+                src="https://www.youtube.com/embed/yywL2rc-QZM"
+              ></iframe>
+            </div>
+            <div>
+              <p>Otros enlaces de mi interés son:</p>
+              <ul>
+                <li>
+                  <a href="https://www.wizardingworld.com/">Wizarding World:</a>
+                  Todo sobre el mundo de Harry Potter.
+                </li>
+                <li>
+                  <a href="https://www.dianauribe.fm/">Dianauribe.fm</a>
+                  Podcast de historia hechos por Diana Uribe (muy muy
+                  recomendado).
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p>Finalmente, este es mi canchoso:</p>
+              <img
+                src="https://raw.githubusercontent.com/santiagbv/EjercicioHTML/master/shiro.jpeg"
+                alt="Santiago Bolaños"
+                width="500"
+                height="500"
+                title="Santiago Bolaños"
+              />
+            </div>
+          </section>
+        </div>
+        <div>
+          <section>
+            <h2 id="formulario">Formulario de contacto</h2>
+            <p>Dejame tus datos y permiteme ahora conocerte a ti.</p>
+            <form>
+              <label for="fname">Nombre:</label><br />
+              <input type="text" id="fname" name="fname" /><br />
+              <label for="lname">Apellido:</label><br />
+              <input type="text" id="lname" name="lname" /><br />
+              <label for="fname">Correo electrónico:</label><br />
+              <input type="text" id="lname" name="lname" /><br /><br />
+              <input type="submit" value="Enviar" />
+            </form>
           </section>
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <br />
+      <p>Sigueme en mis redes sociales</p>
+      <a href="https://www.facebook.com/santiagbv/">Facebook</a>
+      <a href="https://twitter.com/santiagbv">Twitter</a>
+      <a href="https://www.linkedin.com/in/santiagbv/">LinkedIn</a>
+      <p>Santiago Bolaños Vega. &copy;</p>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png"
+        alt="Santiago Bolaños"
+        width="30"
+        height="30"
+        title="Santiago Bolaños"
+      />
+    </footer>
   </body>
 </html>
